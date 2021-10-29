@@ -1,0 +1,8 @@
+nome = str(input('Qual o seu nome ?')).strip()
+print('Analisando seu nome...')
+print(f'Seu nome em maiúsculo é {nome.upper()}')
+print(f'Seu nome em minúsculo é {nome.lower()}')
+n = len(nome) - nome.count(' ')
+print(f'Seu nome tem {n} letras')
+n1 = nome.find(' ')
+print(f'Seu primeiro nome tem {n1} letras')
